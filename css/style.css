@@ -34,13 +34,71 @@ body {
 
 .topnav a.active {
   float: left;
-  background-image: ("logo.png");
   color: white;
 }
 
-.sivu1  {
-background-color: #91B247;
+h1 {
+  text-align: center;
+    font-size: 40px;
+  color: beige
+;
+}
+h2 {
+  text-align: center;
+    font-size: 20px;
+  color: beige;
+
+}
+h3
+
+#Home  {
+  background-color: #91B247;
+  padding: 140px;
+  margin: auto;
 
 
+}
+
+
+#kuva1 {
+
+position: center;
+width: 600px;
+height: 250px;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+
+
+
+#kuva2{
+  position: center;
+  width: 630px;
+  height: 270px;
+
+}
+
+#Donate{
+ background-color: #91B247;
+  position: center;
+  padding: 140px;
+  margin: auto;
+
+}
+
+#Contact{
+  background-color: #91B247;
+padding: 140px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .header, .topnav .Home, #responsive, #Products, #Contact {
+    width: 100%;
+  }
 }
 
